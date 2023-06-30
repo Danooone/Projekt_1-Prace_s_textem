@@ -50,42 +50,34 @@ Na chyby za běhu programu reagujte obvyklým způsobem: Na neočekávaná vstup
 Pomocný soubor seznam.txt telefonního seznamu:
 
 *$ cat seznam.txt*
+
 *Petr Dvorak*
+
 *603123456*
 
 *Jana Novotna*
+
 *777987654*
 
 *Bedrich Smetana ml.*
+
 *541141120*
 
 Příklad hledání (pro demonstraci jsou nalezená písmena ve jméně jako velká):
 
-$ ./t9search <seznam.txt*
-
+$ ./t9search <seznam.txt
 *petr dvorak, 603123456*
-
 *jana novotna, 777987654*
-
 *bedrich smetana ml., 541141120*
-
-$ ./t9search 12 <seznam.txt*
-
+$ ./t9search 12 <seznam.txt
 *petr dvorak, 603123456*
-
 *bedrich smetana ml., 541141120*
-
-$ ./t9search 686 <seznam.txt*
-
+$ ./t9search 686 <seznam.txt
 *jana nOVOtna, 777987654*
-
-$ ./t9search 38 <seznam.txt*
-
+$ ./t9search 38 <seznam.txt
 *pETr DVorak, 603123456*
-
 *bedrich smETana ml., 541141120*
-
-$ ./t9search 111 <seznam.txt*
-
+$ ./t9search 111 <seznam.txt
 *Not found*
+
 
