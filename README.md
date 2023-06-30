@@ -49,7 +49,7 @@ Na chyby za běhu programu reagujte obvyklým způsobem: Na neočekávaná vstup
 # Příklady vstupů a výstupů
 Pomocný soubor seznam.txt telefonního seznamu:
 
-$ cat seznam.txt
+* $ cat seznam.txt
 Petr Dvorak
 603123456
 Jana Novotna
@@ -70,4 +70,4 @@ $ ./t9search 38 <seznam.txt
 pETr DVorak, 603123456
 bedrich smETana ml., 541141120
 $ ./t9search 111 <seznam.txt
-Not found*
+Not found *
