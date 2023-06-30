@@ -73,3 +73,4 @@ Příklad hledání (pro demonstraci jsou nalezená písmena ve jméně jako vel
 *bedrich smETana ml., 541141120*
 *$ ./t9search 111 <seznam.txt*
 *Not found*
+ 
