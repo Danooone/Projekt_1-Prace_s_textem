@@ -23,13 +23,25 @@ Pro zjednodušení budeme v tomto projektu uvažovat hledání '''nepřerušené
 
 **Výstup programu**
 Výstup programu může být dvojího druhu:
--žádný kontakt nenalezen,
--nalezen jeden a více kontaktů.
+- žádný kontakt nenalezen,
+- nalezen jeden a více kontaktů.
 *Kontakt nenalezen*
 
 Not found
 
 Pokud v telefonním seznamu neexistuje kontakt, u něhož by nějaká část odpovídala hledanému řetězci CISLO, vytiskne program toto hlášení.
 
-*Kontakt(y) nalezen(y)8
+*Kontakt(y) nalezen(y)*
+
 Každý kontakt, který odpovídá hledanému kritériu, program vytiskne na jeden řádek ve formátu "JMENO, TELCISLO", kde JMENO je jméno kontaktu z telefonního seznamu a TELCISLO je záznam o telefonním čísle. Program tiskne všechny kontakty, které kritériu odpovídají. Na pořadí řádků nezáleží. Stejně tak nezáleží ani na velikosti písmen.
+
+**Omezení v projektu**
+
+Je zakázané použít následující funkce:
+- volání z rodiny malloc a free - práce s dynamickou pamětí není v tomto projektu zapotřebí,
+- volání z rodiny fopen, fclose, fscanf, ... - práce se soubory (dočasnými) není v tomto projektu žádoucí,
+- volání qsort, lsearch, bsearch a hsearch - cílem je zamyslet se nad algoritmizací a strukturou dat.
+
+# Neočekávané chování
+
+Na chyby za běhu programu reagujte obvyklým způsobem: Na neočekávaná vstupní data, formát vstupních dat nebo chyby při volání funkcí reagujte přerušením programu se stručným a výstižným chybovým hlášením na příslušný výstup a odpovídajícím návratovým kódem. Hlášení budou v kódování ASCII česky (slovensky) nebo anglicky.
