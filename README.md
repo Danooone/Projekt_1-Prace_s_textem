@@ -50,17 +50,13 @@ Na chyby za běhu programu reagujte obvyklým způsobem: Na neočekávaná vstup
 Pomocný soubor seznam.txt telefonního seznamu:
 
 *$ cat seznam.txt*
-
 *Petr Dvorak*
-
 *603123456*
 
 *Jana Novotna*
-
 *777987654*
 
 *Bedrich Smetana ml.*
-
 *541141120*
 
 Příklad hledání (pro demonstraci jsou nalezená písmena ve jméně jako velká):
